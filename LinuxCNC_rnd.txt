@@ -1,0 +1,36 @@
+
+
+
+https://forum.linuxcnc.org/41-guis/47942-nml-and-gui-from-scratch
+https://github.com/LinuxCNC/linuxcnc/blob/master/src/emc/usr_intf/emclcd.cc
+
+
+
+
+
+
+
+docs/src/man/man1/hy_vfd.1.adoc
+  Set the name of the serial device node to use (defaults to /dev/ttyS0).
+  
+  
+  
+  
+  
+  
+  
+  
+XCreator, a c++ gui designer in development.
+https://github.com/grotius-cnc/XCreator
+
+
+
+
+
+ cam contour offset application. Input format dxf. 
+https://github.com/grotius-cnc/cam
+
+
+
+
+
