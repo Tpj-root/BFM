@@ -34,3 +34,19 @@ https://github.com/grotius-cnc/cam
 
 
 
+
+https://forum.linuxcnc.org/10-advanced-configuration/34373-lcd-c-show-different-characters
+https://github.com/LinuxCNC/linuxcnc/blob/2.7/src/hal/components/lcd.c#L344
+
+https://www.instructables.com/How-to-Use-I2C-Serial-LCD-20X4-Yellow-Backlight/
+
+https://witblox.com/products/20x4-lcd-display-with-i2c-serial-interface-module
+
+
+
+
+
+
+https://forum.linuxcnc.org/41-guis/50116-new-arduino-based-usb-pendant
+
+https://forum.linuxcnc.org/18-computer/22562-arduino-based-usb-pendant-for-linuxcnc?start=0
