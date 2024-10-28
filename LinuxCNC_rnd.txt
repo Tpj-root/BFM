@@ -50,3 +50,48 @@ https://witblox.com/products/20x4-lcd-display-with-i2c-serial-interface-module
 https://forum.linuxcnc.org/41-guis/50116-new-arduino-based-usb-pendant
 
 https://forum.linuxcnc.org/18-computer/22562-arduino-based-usb-pendant-for-linuxcnc?start=0
+
+https://forum.linuxcnc.org/18-computer/36882-help-arduino-based-control-panel-for-linuxcnc
+
+
+
+ref:lib
+https://forum.linuxcnc.org/18-computer/22562-arduino-based-usb-pendant-for-linuxcnc?start=0
+
+
+halcmd loadusr serialcon3
+
+halshow
+
+
+
+
+
+
+
+learn basic serial com
+and 
+
+
+#include <SoftwareSerial.h>
+#include <Key.h>
+#include <Keypad.h>
+#include "Wire.h"
+#include "LiquidCrystal.h"
+
+
+
+learn the all the library
+
+12C importent 
+#include <LiquidCrystal_I2C.h>
+
+
+
+
+
+
+
+
+
+
