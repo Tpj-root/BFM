@@ -1,0 +1,1269 @@
+{
+  "installed_libraries": [
+    {
+      "library": {
+        "name": "Adafruit TouchScreen",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "Adafruit TouchScreen display library.",
+        "paragraph": "Adafruit TouchScreen display library.",
+        "website": "https://github.com/adafruit/Adafruit_TouchScreen",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_TouchScreen",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_TouchScreen",
+        "version": "1.1.5",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_TouchScreen/examples/touchscreendemo",
+          "/home/sab/Arduino/libraries/Adafruit_TouchScreen/examples/touchscreendemoshield"
+        ],
+        "provides_includes": [
+          "TouchScreen.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Keypad",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Keypad",
+        "source_dir": "/home/sab/Arduino/libraries/Keypad",
+        "is_legacy": true,
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Keypad/examples/CustomKeypad",
+          "/home/sab/Arduino/libraries/Keypad/examples/DynamicKeypad",
+          "/home/sab/Arduino/libraries/Keypad/examples/EventKeypad",
+          "/home/sab/Arduino/libraries/Keypad/examples/HelloKeypad"
+        ],
+        "provides_includes": [
+          "Key.h",
+          "Keypad.h"
+        ],
+        "compatible_with": {}
+      },
+      "release": {
+        "author": "Mark Stanley, Alexander Brevig",
+        "version": "3.1.1",
+        "maintainer": "Community https://github.com/Chris--A/Keypad",
+        "sentence": "Keypad is a library for using matrix style keypads with the Arduino.",
+        "paragraph": "As of version 3.0 it now supports mulitple keypresses. This library is based upon the Keypad Tutorial. It was created to promote Hardware Abstraction. It improves readability of the code by hiding the pinMode and digitalRead calls for the user.",
+        "website": "http://playground.arduino.cc/Code/Keypad",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "types": [
+          "Contributed"
+        ]
+      }
+    },
+    {
+      "library": {
+        "name": "WiFiManager",
+        "author": "tzapu",
+        "maintainer": "tablatronix",
+        "sentence": "WiFi Configuration manager with web configuration portal for Espressif ESPx boards, by tzapu",
+        "paragraph": "Library for configuring ESP8266/ESP32 modules WiFi credentials and custom parameters at runtime with captive portal.",
+        "website": "https://github.com/tzapu/WiFiManager.git",
+        "category": "Communication",
+        "architectures": [
+          "esp8266",
+          "esp32"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/WiFiManager-master",
+        "source_dir": "/home/sab/Arduino/libraries/WiFiManager-master",
+        "version": "2.0.17",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Advanced",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Basic",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/NonBlocking/AutoConnectNonBlocking",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/NonBlocking/AutoConnectNonBlockingwParams",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/NonBlocking/OnDemandNonBlocking",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Old_examples/AutoConnectWithFeedback",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Old_examples/AutoConnectWithReset",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Old_examples/AutoConnectWithStaticIP",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Old_examples/AutoConnectWithTimeout",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/OnDemand/OnDemandConfigPortal",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/OnDemand/OnDemandWebPortal",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Parameters/SPIFFS/AutoConnectWithFSParameters",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Parameters/SPIFFS/AutoConnectWithFSParametersAndCustomIP",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/ParamsChildClass",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Super/OnDemandConfigPortal",
+          "/home/sab/Arduino/libraries/WiFiManager-master/examples/Tests/wifi_softap"
+        ],
+        "provides_includes": [
+          "WiFiManager.h",
+          "strings_en.h",
+          "wm_consts_en.h",
+          "wm_strings_en.h",
+          "wm_strings_es.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit GFX Library",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "Adafruit GFX graphics core library, this is the 'core' class that all our other graphics libraries derive from.",
+        "paragraph": "Install this library in addition to the display library for your hardware.",
+        "website": "https://github.com/adafruit/Adafruit-GFX-Library",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_GFX_Library",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_GFX_Library",
+        "version": "1.11.11",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_GFX_Library/examples/GFXcanvas",
+          "/home/sab/Arduino/libraries/Adafruit_GFX_Library/examples/mock_ili9341"
+        ],
+        "provides_includes": [
+          "Adafruit_GFX.h",
+          "Adafruit_GrayOLED.h",
+          "Adafruit_SPITFT.h",
+          "Adafruit_SPITFT_Macros.h",
+          "gfxfont.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "BlinkControl",
+        "author": "Mickey Chan \u003cdeveloper@comicparty.com\u003e",
+        "maintainer": "Mickey Chan \u003cdeveloper@comicparty.com\u003e",
+        "sentence": "This is an Arduino/ESP32 module for easily manage multiple LED on/off, blinking or Buzzer beats with different pattern.",
+        "paragraph": "Work with digital pins, analog pins or pins on 74HC595 shift register via johnnyb's Shifty. Each instance of the module control one pin. Module provide some predefined blink and breathe pattern. You may also control blink pattern by providing a pattern array.",
+        "website": "https://github.com/mickey9801/BlinkControl",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/BlinkControl",
+        "source_dir": "/home/sab/Arduino/libraries/BlinkControl/src",
+        "version": "1.1.0",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/BlinkControl/examples/custom_blink_timing",
+          "/home/sab/Arduino/libraries/BlinkControl/examples/shift_register_74hc595",
+          "/home/sab/Arduino/libraries/BlinkControl/examples/simple_blink",
+          "/home/sab/Arduino/libraries/BlinkControl/examples/simple_on_off",
+          "/home/sab/Arduino/libraries/BlinkControl/examples/switch_blink"
+        ],
+        "provides_includes": [
+          "BlinkControl.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "ModbusMaster",
+        "author": "Doc Walker",
+        "maintainer": "Doc Walker \u003c4-20ma@wvfans.net\u003e",
+        "sentence": "Enlighten your Arduino to be a Modbus master.",
+        "paragraph": "Enables communication with Modbus slaves over RS232/485 (via RTU protocol). Requires an RS232/485 transceiver.",
+        "website": "https://github.com/4-20ma/ModbusMaster",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/ModbusMaster",
+        "source_dir": "/home/sab/Arduino/libraries/ModbusMaster/src",
+        "version": "2.0.1",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/ModbusMaster/examples/Basic",
+          "/home/sab/Arduino/libraries/ModbusMaster/examples/PhoenixContact_nanoLC",
+          "/home/sab/Arduino/libraries/ModbusMaster/examples/RS485_HalfDuplex"
+        ],
+        "provides_includes": [
+          "ModbusMaster.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit ST7735 and ST7789 Library",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "This is a library for the Adafruit ST7735 and ST7789 SPI displays.",
+        "paragraph": "This is a library for the Adafruit ST7735 and ST7789 SPI displays.",
+        "website": "https://github.com/adafruit/Adafruit-ST7735-Library",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library",
+        "version": "1.10.4",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/displayOnOffTest",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/graphicstest",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/graphicstest_feather_esp32s2_tft",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/graphicstest_hallowing_m0",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/graphicstest_hallowing_m4",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/graphicstest_pybadge_pygamer",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/graphicstest_st7789",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/graphicstest_tft_gizmo",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/miniTFTWing/basic",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/miniTFTWing/graphicstest_v1_160x80",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/rotationtest",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/seesaw_shield18_test",
+          "/home/sab/Arduino/libraries/Adafruit_ST7735_and_ST7789_Library/examples/shieldtest"
+        ],
+        "provides_includes": [
+          "Adafruit_ST7735.h",
+          "Adafruit_ST7789.h",
+          "Adafruit_ST77xx.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit SH110X",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "SH110X oled driver library for monochrome displays with SH1107 or SH1106G drivers",
+        "paragraph": "SH110X oled driver library for monochrome displays with SH1107 or SH1106G drivers",
+        "website": "https://github.com/adafruit/Adafruit_SH110X",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_SH110X",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_SH110X",
+        "version": "2.1.11",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_SH110X/examples/OLED_QTPY_SH1106/SH1106_128x64_SPi_QTPY",
+          "/home/sab/Arduino/libraries/Adafruit_SH110X/examples/OLED_QTPY_SH1106/SH1106_128x64_i2c_QTPY",
+          "/home/sab/Arduino/libraries/Adafruit_SH110X/examples/OLED_featherwing",
+          "/home/sab/Arduino/libraries/Adafruit_SH110X/examples/SH1107_128x128"
+        ],
+        "provides_includes": [
+          "Adafruit_SH110X.h",
+          "splash.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "LedControl",
+        "author": "Eberhard Fahle \u003ce.fahle@wayoda.org\u003e",
+        "maintainer": "Eberhard Fahle \u003ce.fahle@wayoda.org\u003e",
+        "sentence": "A library for the MAX7219 and the MAX7221 Led display drivers.",
+        "paragraph": "The library supports multiple daisychained drivers and supports Led-Matrix displays as well as 7-Segment displays.",
+        "website": "http://wayoda.github.io/LedControl/",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/LedControl",
+        "source_dir": "/home/sab/Arduino/libraries/LedControl/src",
+        "version": "1.0.6",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/LedControl/examples/LCDemo7Segment",
+          "/home/sab/Arduino/libraries/LedControl/examples/LCDemoCascadedDevices",
+          "/home/sab/Arduino/libraries/LedControl/examples/LCDemoMatrix"
+        ],
+        "provides_includes": [
+          "LedControl.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "BTLE",
+        "author": "Florian Echtler",
+        "maintainer": "Florian Echtler",
+        "sentence": "Arduino library for basic Bluetooth LE communication.",
+        "paragraph": "Arduino library for basic Bluetooth Low Energy support using the nRF24L01+ (basic support = sending \u0026 receiving on the advertising broadcast channel)",
+        "website": "https://github.com/floe/BTLE",
+        "category": "Communication",
+        "architectures": [
+          "avr"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/BTLE",
+        "source_dir": "/home/sab/Arduino/libraries/BTLE",
+        "version": "1.0",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/BTLE/examples/recv",
+          "/home/sab/Arduino/libraries/BTLE/examples/send",
+          "/home/sab/Arduino/libraries/BTLE/examples/temperature"
+        ],
+        "provides_includes": [
+          "BTLE.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "MIDIUSB",
+        "author": "Gary Grewal, Arduino",
+        "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+        "sentence": "Allows an Arduino board with USB capabilites to act as a MIDI instrument over USB.",
+        "website": "http://www.arduino.cc/en/Reference/MIDIUSB",
+        "category": "Device Control",
+        "architectures": [
+          "avr",
+          "sam",
+          "samd"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/MIDIUSB",
+        "source_dir": "/home/sab/Arduino/libraries/MIDIUSB/src",
+        "version": "1.0.5",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/MIDIUSB/examples/MIDIUSB_buzzer",
+          "/home/sab/Arduino/libraries/MIDIUSB/examples/MIDIUSB_clock",
+          "/home/sab/Arduino/libraries/MIDIUSB/examples/MIDIUSB_loop",
+          "/home/sab/Arduino/libraries/MIDIUSB/examples/MIDIUSB_read",
+          "/home/sab/Arduino/libraries/MIDIUSB/examples/MIDIUSB_write"
+        ],
+        "provides_includes": [
+          "MIDIUSB.h",
+          "MIDIUSB_Defs.h",
+          "frequencyToNote.h",
+          "pitchToFrequency.h",
+          "pitchToNote.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit BusIO",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "This is a library for abstracting away I2C and SPI interfacing",
+        "paragraph": "This is a library for abstracting away I2C and SPI interfacing",
+        "website": "https://github.com/adafruit/Adafruit_BusIO",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_BusIO",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_BusIO",
+        "version": "1.16.1",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_BusIO/examples/i2c_address_detect",
+          "/home/sab/Arduino/libraries/Adafruit_BusIO/examples/i2c_readwrite",
+          "/home/sab/Arduino/libraries/Adafruit_BusIO/examples/i2c_registers",
+          "/home/sab/Arduino/libraries/Adafruit_BusIO/examples/i2corspi_register",
+          "/home/sab/Arduino/libraries/Adafruit_BusIO/examples/spi_modetest",
+          "/home/sab/Arduino/libraries/Adafruit_BusIO/examples/spi_readwrite",
+          "/home/sab/Arduino/libraries/Adafruit_BusIO/examples/spi_register_bits",
+          "/home/sab/Arduino/libraries/Adafruit_BusIO/examples/spi_registers"
+        ],
+        "provides_includes": [
+          "Adafruit_BusIO_Register.h",
+          "Adafruit_I2CDevice.h",
+          "Adafruit_I2CRegister.h",
+          "Adafruit_SPIDevice.h"
+        ],
+        "compatible_with": {}
+      },
+      "release": {
+        "author": "Adafruit",
+        "version": "1.16.2",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "This is a library for abstracting away I2C and SPI interfacing",
+        "paragraph": "This is a library for abstracting away I2C and SPI interfacing",
+        "website": "https://github.com/adafruit/Adafruit_BusIO",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "types": [
+          "Contributed"
+        ]
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit STMPE610",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "Arduino library for STMPE610/811 resistive touch screen controllers",
+        "paragraph": "Arduino library for STMPE610/811 resistive touch screen controllers",
+        "website": "https://github.com/adafruit/Adafruit_STMPE610",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_STMPE610",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_STMPE610",
+        "version": "1.1.6",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_STMPE610/examples/TouchTest"
+        ],
+        "provides_includes": [
+          "Adafruit_STMPE610.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit_4_01_ColourEPaper",
+        "author": "Kushagra Goel \u003ckushagra.goel@mail.utoronto.ca\u003e",
+        "maintainer": "Kushagra Goel \u003ckushagra.goel@mail.utoronto.ca\u003e",
+        "sentence": "Adafruit connector library for the WaveShare 4.01 Colour Epaper display",
+        "paragraph": "Works with AdafruitGFX",
+        "website": "https://github.com/A223D/Adafruit_4_01_ColourEPaper",
+        "category": "Display",
+        "architectures": [
+          "esp32",
+          "esp8266"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_4_01_ColourEPaper",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_4_01_ColourEPaper/src",
+        "version": "1.0.0",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_4_01_ColourEPaper/examples/customPins",
+          "/home/sab/Arduino/libraries/Adafruit_4_01_ColourEPaper/examples/defaultPins",
+          "/home/sab/Arduino/libraries/Adafruit_4_01_ColourEPaper/examples/modifiedAdafruitGFXExample",
+          "/home/sab/Arduino/libraries/Adafruit_4_01_ColourEPaper/examples/testFunction"
+        ],
+        "provides_includes": [
+          "Adafruit_4_01_ColourEPaper.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "SD",
+        "author": "Arduino, SparkFun",
+        "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+        "sentence": "Enables reading and writing on SD cards.",
+        "paragraph": "Once an SD memory card is connected to the SPI interface of the Arduino board you can create files and read/write on them. You can also move through directories on the SD card.",
+        "website": "http://www.arduino.cc/en/Reference/SD",
+        "category": "Data Storage",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/SD",
+        "source_dir": "/home/sab/Arduino/libraries/SD/src",
+        "version": "1.3.0",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/SD/examples/CardInfo",
+          "/home/sab/Arduino/libraries/SD/examples/Datalogger",
+          "/home/sab/Arduino/libraries/SD/examples/DumpFile",
+          "/home/sab/Arduino/libraries/SD/examples/Files",
+          "/home/sab/Arduino/libraries/SD/examples/NonBlockingWrite",
+          "/home/sab/Arduino/libraries/SD/examples/ReadWrite",
+          "/home/sab/Arduino/libraries/SD/examples/listfiles"
+        ],
+        "provides_includes": [
+          "SD.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit seesaw Library",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "This is a library for the Adafruit seesaw helper IC.",
+        "paragraph": "This is a library for the Adafruit seesaw helper IC.",
+        "website": "https://github.com/adafruit/Adafruit_Seesaw",
+        "category": "Other",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_seesaw_Library",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_seesaw_Library",
+        "version": "1.7.9",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/basic",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/cap_touch_demo",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/drive/more_drivers",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/drive/test_drive",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/fulltest",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/motor/dual_motor",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/servo/more_servos",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/servo/test_servo",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Crickit/signal/test_signal",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/EEPROM",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/LEDArcade_1x4",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/Mini_I2C_Gamepad_QT",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoKey_1x4/basic",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoKey_1x4/basic_callback",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoKey_1x4/basic_multikey",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoKey_1x4/basic_neoswirl",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoPixel/NeoPixel_strandtest",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoSlider/Dual_NeoSlider",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoSlider/NeoSlider",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoTrellis/basic",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoTrellis/interrupt",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoTrellis/multitrellis/basic",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoTrellis/pattern_game",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/NeoTrellis/ripples",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/PC_Joystick",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/analog/Fade",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/analog/analogRead",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/audio_spectrum/Audio_Spectrum",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/communication/UART_loopback",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/digital/attiny_blink",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/digital/blink",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/digital/gpio_interrupts",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/digital/multiblink",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/digital/multiread",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/encoder/PID5740_ANOencoder_7Seg_demo",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/encoder/PID5740_ANOencoder_demo",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/encoder/PID5752_QuadEncoder_TFTDemo",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/encoder/PID5752_QuadEncoder_demo",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/encoder/encoder_basic",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/encoder/multiple_encoders",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/encoder_delta",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/joy_featherwing/joy_featherwing_ESP32",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/joy_featherwing/joy_featherwing_example",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/joy_featherwing/joy_wing_oled",
+          "/home/sab/Arduino/libraries/Adafruit_seesaw_Library/examples/soil_sensor/soilsensor_example"
+        ],
+        "provides_includes": [
+          "Adafruit_Crickit.h",
+          "Adafruit_NeoKey_1x4.h",
+          "Adafruit_NeoTrellis.h",
+          "Adafruit_TFTShield18.h",
+          "Adafruit_miniTFTWing.h",
+          "Adafruit_seesaw.h",
+          "seesaw_motor.h",
+          "seesaw_neopixel.h",
+          "seesaw_servo.h",
+          "seesaw_spectrum.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit NeoPixel",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "Arduino library for controlling single-wire-based LED pixels and strip.",
+        "paragraph": "Arduino library for controlling single-wire-based LED pixels and strip.",
+        "website": "https://github.com/adafruit/Adafruit_NeoPixel",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_NeoPixel",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_NeoPixel",
+        "version": "1.12.3",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/RGBWstrandtest",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/StrandtestArduinoBLE",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/StrandtestArduinoBLECallback",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/StrandtestBLE",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/StrandtestBLE_nodelay",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/buttoncycler",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/simple",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/simple_new_operator",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/strandtest",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/strandtest_nodelay",
+          "/home/sab/Arduino/libraries/Adafruit_NeoPixel/examples/strandtest_wheel"
+        ],
+        "provides_includes": [
+          "Adafruit_NeoPixel.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "USB-MIDI",
+        "author": "lathoub",
+        "maintainer": "lathoub \u003clathoub@gmail.com\u003e",
+        "sentence": "USB-MIDI I/Os for Arduino",
+        "paragraph": "Allows a microcontroller, with native USB capabilities, to appear as a MIDI device over USB to a connected computer. This library depends on the FortySevenEffects MIDI Library.",
+        "website": "https://github.com/lathoub/Arduino-USBMIDI",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/USB-MIDI",
+        "source_dir": "/home/sab/Arduino/libraries/USB-MIDI/src",
+        "version": "1.1.2",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/USB-MIDI/examples/AllEvents",
+          "/home/sab/Arduino/libraries/USB-MIDI/examples/Basic_IO",
+          "/home/sab/Arduino/libraries/USB-MIDI/examples/CableNumber",
+          "/home/sab/Arduino/libraries/USB-MIDI/examples/MIDI_DIN2USB",
+          "/home/sab/Arduino/libraries/USB-MIDI/examples/NoteOnOffEverySec",
+          "/home/sab/Arduino/libraries/USB-MIDI/examples/SysEx"
+        ],
+        "provides_includes": [
+          "USB-MIDI.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit ILI9341",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "Library for Adafruit ILI9341 displays",
+        "paragraph": "Library for Adafruit ILI9341 displays",
+        "website": "https://github.com/adafruit/Adafruit_ILI9341",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_ILI9341",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_ILI9341",
+        "version": "1.6.1",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/breakouttouchpaint",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/graphicstest",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/graphicstest_featherwing",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/graphicstest_pyportal",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/mandelbrot",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/onoffbutton",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/onoffbutton_breakout",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/pictureEmbed",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/pyportal_boing",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/touchpaint",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/touchpaint_featherwing",
+          "/home/sab/Arduino/libraries/Adafruit_ILI9341/examples/touchpaint_pyportal"
+        ],
+        "provides_includes": [
+          "Adafruit_ILI9341.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Arduino-LiquidCrystal-I2C-library-master",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Arduino-LiquidCrystal-I2C-library-master",
+        "source_dir": "/home/sab/Arduino/libraries/Arduino-LiquidCrystal-I2C-library-master",
+        "is_legacy": true,
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Arduino-LiquidCrystal-I2C-library-master/examples/BlinkingCursor",
+          "/home/sab/Arduino/libraries/Arduino-LiquidCrystal-I2C-library-master/examples/CustomChars",
+          "/home/sab/Arduino/libraries/Arduino-LiquidCrystal-I2C-library-master/examples/HelloWorld",
+          "/home/sab/Arduino/libraries/Arduino-LiquidCrystal-I2C-library-master/examples/SerialDisplay"
+        ],
+        "provides_includes": [
+          "LiquidCrystal_I2C.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "LiquidCrystal",
+        "author": "Arduino, Adafruit",
+        "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+        "sentence": "Allows communication with alphanumerical liquid crystal displays (LCDs).",
+        "paragraph": "This library allows an Arduino/Genuino board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs. The library works with in either 4 or 8 bit mode (i.e. using 4 or 8 data lines in addition to the rs, enable, and, optionally, the rw control lines).",
+        "website": "http://www.arduino.cc/en/Reference/LiquidCrystal",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/LiquidCrystal",
+        "source_dir": "/home/sab/Arduino/libraries/LiquidCrystal/src",
+        "version": "1.0.7",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/Autoscroll",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/Blink",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/Cursor",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/CustomCharacter",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/Display",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/HelloWorld",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/Scroll",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/SerialDisplay",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/TextDirection",
+          "/home/sab/Arduino/libraries/LiquidCrystal/examples/setCursor"
+        ],
+        "provides_includes": [
+          "LiquidCrystal.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Servo",
+        "author": "Michael Margolis, Arduino",
+        "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+        "sentence": "Allows Arduino boards to control a variety of servo motors.",
+        "paragraph": "This library can control a great number of servos.\u003cbr /\u003eIt makes careful use of timers: the library can control 12 servos using only 1 timer.\u003cbr /\u003eOn the Arduino Due you can control up to 60 servos.",
+        "website": "https://www.arduino.cc/reference/en/libraries/servo/",
+        "category": "Device Control",
+        "architectures": [
+          "avr",
+          "megaavr",
+          "sam",
+          "samd",
+          "nrf52",
+          "stm32f4",
+          "mbed",
+          "mbed_nano",
+          "mbed_portenta",
+          "mbed_rp2040",
+          "renesas",
+          "renesas_portenta",
+          "renesas_uno"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Servo",
+        "source_dir": "/home/sab/Arduino/libraries/Servo/src",
+        "version": "1.2.2",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/Servo/examples/Knob",
+          "/home/sab/Arduino/libraries/Servo/examples/Sweep"
+        ],
+        "provides_includes": [
+          "Servo.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit PCD8544 Nokia 5110 LCD library",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "Arduino driver for PC8544, most commonly found in small Nokia 5110's",
+        "paragraph": "Arduino driver for PC8544, most commonly found in small Nokia 5110's",
+        "website": "https://github.com/adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_PCD8544_Nokia_5110_LCD_library",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_PCD8544_Nokia_5110_LCD_library",
+        "version": "2.0.3",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_PCD8544_Nokia_5110_LCD_library/examples/pcdtest"
+        ],
+        "provides_includes": [
+          "Adafruit_PCD8544.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "LiquidCrystal I2C",
+        "author": "Frank de Brabander",
+        "maintainer": "Marco Schwartz \u003cmarcolivier.schwartz@gmail.com\u003e",
+        "sentence": "A library for I2C LCD displays.",
+        "paragraph": "The library allows to control I2C displays with functions extremely similar to LiquidCrystal library. THIS LIBRARY MIGHT NOT BE COMPATIBLE WITH EXISTING SKETCHES.",
+        "website": "https://github.com/marcoschwartz/LiquidCrystal_I2C",
+        "category": "Display",
+        "architectures": [
+          "avr"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/LiquidCrystal_I2C",
+        "source_dir": "/home/sab/Arduino/libraries/LiquidCrystal_I2C",
+        "version": "1.1.2",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/LiquidCrystal_I2C/examples/CustomChars",
+          "/home/sab/Arduino/libraries/LiquidCrystal_I2C/examples/HelloWorld",
+          "/home/sab/Arduino/libraries/LiquidCrystal_I2C/examples/SerialDisplay"
+        ],
+        "provides_includes": [
+          "LiquidCrystal_I2C.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "MIDI Library",
+        "author": "Francois Best, lathoub",
+        "maintainer": "Francois Best \u003ccontact@francoisbest.com\u003e",
+        "sentence": "MIDI I/Os for Arduino",
+        "paragraph": "Read \u0026 send MIDI messages to interface with your controllers and synths",
+        "website": "https://github.com/FortySevenEffects/arduino_midi_library",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/MIDI_Library",
+        "source_dir": "/home/sab/Arduino/libraries/MIDI_Library/src",
+        "version": "5.0.2",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/AltPinSerial",
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/Basic_IO",
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/Bench",
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/Callbacks",
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/DualMerger",
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/ErrorCallback",
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/Input",
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/RPN_NRPN",
+          "/home/sab/Arduino/libraries/MIDI_Library/examples/SimpleSynth"
+        ],
+        "provides_includes": [
+          "MIDI.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "NRFLite",
+        "author": "Dave Parson \u003cdparson55@hotmail.com\u003e",
+        "maintainer": "Dave Parson \u003cdparson55@hotmail.com\u003e",
+        "sentence": "nRF24L01+ library requiring very little code along with YouTube videos showing all available features.",
+        "paragraph": "Send dynamically-sized data packets, with or without dynamically-sized acknowledgement packets, with less complication than other libraries.  The library also supports controlling the radio with only 2 pins on ATtiny and ATmega microcontrollers!",
+        "website": "https://github.com/dparson55/NRFLite",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/NRFLite",
+        "source_dir": "/home/sab/Arduino/libraries/NRFLite/src",
+        "version": "3.0.5",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_RX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_RX_2Pin",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_RX_ESP32",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_RX_ESP8266",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_TX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_TX_2Pin",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_TX_ATtiny84",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_TX_ATtiny85",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Basic_TX_ESP32",
+          "/home/sab/Arduino/libraries/NRFLite/examples/ChannelScanner",
+          "/home/sab/Arduino/libraries/NRFLite/examples/IRQ_RX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/IRQ_TX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/MultiplePacketSizes_RX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/MultiplePacketSizes_TX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Sensor_RX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Sensor_TX_ATtiny85_2Pin",
+          "/home/sab/Arduino/libraries/NRFLite/examples/SplitDataAcrossMultiplePackets_RX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/SplitDataAcrossMultiplePackets_TX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Test_RX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/Test_TX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/TwoWayCom_HardwareBased_RX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/TwoWayCom_HardwareBased_TX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/TwoWayCom_SoftwareBased_RX",
+          "/home/sab/Arduino/libraries/NRFLite/examples/TwoWayCom_SoftwareBased_TX"
+        ],
+        "provides_includes": [
+          "NRFLite.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Ethernet",
+        "author": "Various (see AUTHORS file for details)",
+        "maintainer": "Arduino \u003cinfo@arduino.cc\u003e",
+        "sentence": "Enables network connection (local and Internet) using the Arduino Ethernet Board or Shield.",
+        "paragraph": "With this library you can use the Arduino Ethernet (shield or board) to connect to Internet. The library provides both client and server functionalities. The library permits you to connect to a local network also with DHCP and to resolve DNS.",
+        "website": "https://www.arduino.cc/en/Reference/Ethernet",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Ethernet",
+        "source_dir": "/home/sab/Arduino/libraries/Ethernet/src",
+        "version": "2.0.2",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/Ethernet/examples/AdvancedChatServer",
+          "/home/sab/Arduino/libraries/Ethernet/examples/BarometricPressureWebServer",
+          "/home/sab/Arduino/libraries/Ethernet/examples/ChatServer",
+          "/home/sab/Arduino/libraries/Ethernet/examples/DhcpAddressPrinter",
+          "/home/sab/Arduino/libraries/Ethernet/examples/DhcpChatServer",
+          "/home/sab/Arduino/libraries/Ethernet/examples/LinkStatus",
+          "/home/sab/Arduino/libraries/Ethernet/examples/PagerServer",
+          "/home/sab/Arduino/libraries/Ethernet/examples/TelnetClient",
+          "/home/sab/Arduino/libraries/Ethernet/examples/UDPSendReceiveString",
+          "/home/sab/Arduino/libraries/Ethernet/examples/UdpNtpClient",
+          "/home/sab/Arduino/libraries/Ethernet/examples/WebClient",
+          "/home/sab/Arduino/libraries/Ethernet/examples/WebClientRepeating",
+          "/home/sab/Arduino/libraries/Ethernet/examples/WebServer"
+        ],
+        "provides_includes": [
+          "Ethernet.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "RF24",
+        "author": "TMRh20",
+        "maintainer": "TMRh20,Avamander",
+        "sentence": "Radio driver, OSI layer 2 library for nrf24L01(+) modules.",
+        "paragraph": "Core library for nRF24L01(+) communication. Simple to use for beginners, but offers advanced configuration options. Many examples are included to demonstrate various modes of communication.",
+        "website": "https://nRF24.github.io/RF24/",
+        "category": "Communication",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/RF24",
+        "source_dir": "/home/sab/Arduino/libraries/RF24",
+        "utility_dir": "/home/sab/Arduino/libraries/RF24/utility",
+        "version": "1.4.10",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/RF24/examples/AcknowledgementPayloads",
+          "/home/sab/Arduino/libraries/RF24/examples/GettingStarted",
+          "/home/sab/Arduino/libraries/RF24/examples/InterruptConfigure",
+          "/home/sab/Arduino/libraries/RF24/examples/ManualAcknowledgements",
+          "/home/sab/Arduino/libraries/RF24/examples/MulticeiverDemo",
+          "/home/sab/Arduino/libraries/RF24/examples/StreamingData",
+          "/home/sab/Arduino/libraries/RF24/examples/encodeRadioDetails",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/GettingStarted_HandlingFailures",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/TransferTimeouts",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/pingpair_dyn",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/pingpair_irq",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/pingpair_multi_dyn",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/pingpair_sleepy",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/recipes/led_remote",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/recipes/nordic_fob",
+          "/home/sab/Arduino/libraries/RF24/examples/old_backups/recipes/pingpair_maple",
+          "/home/sab/Arduino/libraries/RF24/examples/rf24_ATTiny/rf24ping85",
+          "/home/sab/Arduino/libraries/RF24/examples/rf24_ATTiny/timingSearch3pin",
+          "/home/sab/Arduino/libraries/RF24/examples/scanner",
+          "/home/sab/Arduino/libraries/RF24/examples/scannerGraphic"
+        ],
+        "provides_includes": [
+          "RF24.h",
+          "RF24_config.h",
+          "nRF24L01.h",
+          "printf.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Nokia 5110 LCD library",
+        "author": "Dimitris Platis",
+        "maintainer": "Dimitris Platis \u003cdimitris@plat.is\u003e",
+        "sentence": "Arduino library for driving the Nokia 5110 LCD",
+        "paragraph": "The Nokia 5110 LCD library can be used to drive the inexpensive and low power displays that used to be found on old Nokia phones and are not readily available online. This library does not use a framebuffer therefore can be run on chips with low memory such as the ATTiny family.",
+        "website": "https://github.com/platisd/nokia-5110-lcd-library",
+        "category": "Display",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Nokia_5110_LCD_library",
+        "source_dir": "/home/sab/Arduino/libraries/Nokia_5110_LCD_library/src",
+        "version": "2.7.1",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/Nokia_5110_LCD_library/examples/Nokia_LCD_Demo",
+          "/home/sab/Arduino/libraries/Nokia_5110_LCD_library/examples/Nokia_LCD_Font"
+        ],
+        "provides_includes": [
+          "Nokia_LCD.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Adafruit TSC2007",
+        "author": "Adafruit",
+        "maintainer": "Adafruit \u003cinfo@adafruit.com\u003e",
+        "sentence": "Arduino library for the TSC2007 resistive touch screen drivers in the Adafruit shop",
+        "paragraph": "Arduino library for the TSC2007 resistive touch screen drivers in the Adafruit shop",
+        "website": "https://github.com/adafruit/Adafruit_TSC2007",
+        "category": "Sensors",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Adafruit_TSC2007",
+        "source_dir": "/home/sab/Arduino/libraries/Adafruit_TSC2007",
+        "version": "1.1.2",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Adafruit_TSC2007/examples/tsc2007_demo",
+          "/home/sab/Arduino/libraries/Adafruit_TSC2007/examples/tsc2007_oleddemo"
+        ],
+        "provides_includes": [
+          "Adafruit_TSC2007.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Shifty",
+        "author": "Jonathan Bartlett \u003cjonathan@bartlettpublishing.com\u003e",
+        "maintainer": "Jonathan Bartlett \u003cjonathan@bartlettpublishing.com\u003e",
+        "sentence": "Extremely flexible and easy-to-use shift register driver for 74HC595 shift registers",
+        "paragraph": "This library is a very flexible way to manage 74HC595 shift registers on Arduino.  It allows you to write to individual outputs just like \"digitalWrite\", allows you to daisy-chain shift registers together, and, if you wire it according to the README, allows you to use your shift register for *both* input *and* output pins.  Note that the input is still under active development and may or may not be functional at the moment.",
+        "website": "http://www.github.com/johnnyb/Shifty",
+        "category": "Device Control",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Shifty",
+        "source_dir": "/home/sab/Arduino/libraries/Shifty/src",
+        "version": "0.1.5",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/Shifty/examples/SimpleOutputExample"
+        ],
+        "provides_includes": [
+          "Shifty.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Encoder",
+        "author": "Paul Stoffregen",
+        "maintainer": "Paul Stoffregen",
+        "sentence": "Counts quadrature pulses from rotary \u0026 linear position encoders.",
+        "paragraph": "Encoder counts pulses from quadrature encoded signals, which are commonly available from rotary knobs, motor or shaft sensors and other position sensors.",
+        "website": "http://www.pjrc.com/teensy/td_libs_Encoder.html",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Encoder",
+        "source_dir": "/home/sab/Arduino/libraries/Encoder",
+        "utility_dir": "/home/sab/Arduino/libraries/Encoder/utility",
+        "version": "1.4.4",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Encoder/examples/Basic",
+          "/home/sab/Arduino/libraries/Encoder/examples/NoInterrupts",
+          "/home/sab/Arduino/libraries/Encoder/examples/SpeedTest",
+          "/home/sab/Arduino/libraries/Encoder/examples/TwoKnobs"
+        ],
+        "provides_includes": [
+          "Encoder.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "Encoder",
+        "author": "Paul Stoffregen",
+        "maintainer": "Paul Stoffregen",
+        "sentence": "Counts quadrature pulses from rotary \u0026 linear position encoders.",
+        "paragraph": "Encoder counts pulses from quadrature encoded signals, which are commonly available from rotary knobs, motor or shaft sensors and other position sensors.",
+        "website": "http://www.pjrc.com/teensy/td_libs_Encoder.html",
+        "category": "Signal Input/Output",
+        "architectures": [
+          "*"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/Encoder-master",
+        "source_dir": "/home/sab/Arduino/libraries/Encoder-master",
+        "utility_dir": "/home/sab/Arduino/libraries/Encoder-master/utility",
+        "version": "1.4.4",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "flat",
+        "examples": [
+          "/home/sab/Arduino/libraries/Encoder-master/examples/Basic",
+          "/home/sab/Arduino/libraries/Encoder-master/examples/NoInterrupts",
+          "/home/sab/Arduino/libraries/Encoder-master/examples/SpeedTest",
+          "/home/sab/Arduino/libraries/Encoder-master/examples/TwoKnobs"
+        ],
+        "provides_includes": [
+          "Encoder.h"
+        ],
+        "compatible_with": {}
+      }
+    },
+    {
+      "library": {
+        "name": "nrf_to_nrf",
+        "author": "TMRh20",
+        "maintainer": "TMRh20",
+        "sentence": "OSI Layer 2 - NRF52x to NRF24L01+ ESB communication",
+        "paragraph": "Communicate to \u0026 from both NRF52x and NRF24L01+ using the API of the RF24 library",
+        "website": "https://github.com/TMRh20/nrf_to_nrf",
+        "category": "Communication",
+        "architectures": [
+          "nordicnrf52",
+          "nrf52"
+        ],
+        "install_dir": "/home/sab/Arduino/libraries/nrf_to_nrf",
+        "source_dir": "/home/sab/Arduino/libraries/nrf_to_nrf/src",
+        "version": "1.2.12",
+        "license": "Unspecified",
+        "properties": {},
+        "location": "user",
+        "layout": "recursive",
+        "examples": [
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24/AcknowledgementPayloads",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24/GettingStarted",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24/GettingStartedEncryption",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24/scanner",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24Ethernet/mqtt_basic",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24Mesh/RF24Mesh_Example",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24Mesh/RF24Mesh_ExampleEncryption",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24Mesh/RF24Mesh_Example_MasterEncryption",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24Network/helloworld_rx",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24Network/helloworld_rxEncryption",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24Network/helloworld_tx",
+          "/home/sab/Arduino/libraries/nrf_to_nrf/examples/RF24Network/helloworld_txEncryption"
+        ],
+        "provides_includes": [
+          "nrf_to_nrf.h"
+        ],
+        "compatible_with": {}
+      },
+      "release": {
+        "author": "TMRh20",
+        "version": "1.2.13",
+        "maintainer": "TMRh20",
+        "sentence": "OSI Layer 2 - NRF52x to NRF24L01+ ESB communication",
+        "paragraph": "Communicate to \u0026 from both NRF52x and NRF24L01+ using the API of the RF24 library",
+        "website": "https://github.com/TMRh20/nrf_to_nrf",
+        "category": "Communication",
+        "architectures": [
+          "nordicnrf52",
+          "nrf52"
+        ],
+        "types": [
+          "Contributed"
+        ]
+      }
+    }
+  ]
+}

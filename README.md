@@ -28,7 +28,12 @@ This visionary plan embraces creativity, innovation, and the unexpected, transfo
 
 
 
+**Backup command**
 
+```
+arduino-cli lib list --format json >arduino_libraries_backup
+
+```
 
  
  
